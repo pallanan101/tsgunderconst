@@ -1,236 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction | Enzo Tech</title>
-    <style>
-        :root {
-            --bg-color: #0d0f12;
-            --accent-color: #00f2fe;
-            --accent-glow: rgba(0, 242, 254, 0.4);
-            --text-color: #ffffff;
-            --text-muted: #8492a6;
-        }
+  <head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Arta | Systems Architect & Full-Stack Developer</title>
+  <meta name="title" content="Arta | Systems Architect & Full-Stack Developer">
+  <meta name="description" content="Portfolio of Lorenzo Pallanan (Arta). Expert Systems Architect specializing in C# .NET, React, live LED stage production, and enterprise Fiber ISP networks.">
+  <meta name="keywords" content="Lorenzo Pallanan, Arta The Sleeping Giant, Systems Architect, React Developer, C# .NET, MikroTik, Unity 6 URP, Web Developer Philippines, Fiber ISP Setup">
+  <meta name="author" content="Lorenzo Pallanan">
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arta-tsg.com/">
+  <meta property="og:title" content="Arta | Systems Architect & Full-Stack Developer">
+  <meta property="og:description" content="Bridging physical hardware and high-fidelity software. View my operational history, from 10km network bridges to live event AV production.">
+  <meta property="og:image" content="https://arta-tsg.com/assets/img/social-preview.jpg"> 
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            position: relative;
-        }
-
-        /* Subtle background grid animation */
-        body::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background-image: 
-                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-            background-size: 40px 40px;
-            top: -50%;
-            left: -50%;
-            transform: rotate(15deg);
-            animation: backgroundMove 80s linear infinite;
-            z-index: 1;
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-            z-index: 2;
-            max-width: 600px;
-        }
-
-        /* Animated Glowing Circle Icon */
-        .icon-box {
-            position: relative;
-            width: 100px;
-            height: 100px;
-            margin: 0 auto 2.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .pulse-ring {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: 3px solid var(--accent-color);
-            border-radius: 50%;
-            animation: pulse 2.5s ease-out infinite;
-            box-shadow: 0 0 20px var(--accent-glow);
-        }
-
-        .pulse-ring-delayed {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: 3px solid var(--accent-color);
-            border-radius: 50%;
-            animation: pulse 2.5s ease-out infinite;
-            animation-delay: 1.25s;
-            box-shadow: 0 0 20px var(--accent-glow);
-        }
-
-        .icon-core {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, #0072ff, var(--accent-color));
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bold;
-            font-size: 1.5rem;
-            box-shadow: 0 0 30px var(--accent-glow);
-            animation: float 4s ease-in-out infinite;
-        }
-
-        h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            letter-spacing: -0.05em;
-            margin-bottom: 1rem;
-            background: linear-gradient(to right, #ffffff, var(--text-muted));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .tagline {
-            font-size: 1.15rem;
-            color: var(--text-muted);
-            margin-bottom: 3rem;
-            line-height: 1.6;
-        }
-
-        /* Real-time Clock Display */
-        .clock {
-            font-family: monospace;
-            font-size: 1.5rem;
-            color: var(--accent-color);
-            background: rgba(255, 255, 255, 0.03);
-            padding: 0.6rem 1.5rem;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            display: inline-block;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            margin-bottom: 3rem;
-        }
-
-        /* Skills Badges */
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.75rem;
-        }
-
-        .badge {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            letter-spacing: 0.05em;
-            color: var(--text-muted);
-            transition: all 0.3s ease;
-        }
-
-        .badge:hover {
-            color: var(--accent-color);
-            border-color: var(--accent-color);
-            background: rgba(0, 242, 254, 0.05);
-            transform: translateY(-2px);
-        }
-
-        /* Keyframe Animations */
-        @keyframes pulse {
-            0% {
-                transform: scale(0.8);
-                opacity: 0.8;
-            }
-            100% {
-                transform: scale(1.6);
-                opacity: 0;
-            }
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-6px); }
-        }
-
-        @keyframes backgroundMove {
-            0% { background-position: 0 0; }
-            100% { background-position: 0 1000px; }
-        }
-
-        @media (max-width: 480px) {
-            h1 { font-size: 2rem; }
-            .tagline { font-size: 1rem; }
-        }
-    </style>
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://arta-tsg.com/">
+  <meta property="twitter:title" content="Arta | Systems Architect & Full-Stack Developer">
+  <meta property="twitter:description" content="Bridging physical hardware and high-fidelity software. View my operational history, from 10km network bridges to live event AV production.">
+  <meta property="twitter:image" content="https://arta-tsg.com/assets/img/social-preview.jpg">
+  <script type="module" crossorigin src="/assets/index-BXKYJlo5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DirQXehn.css">
 </head>
-<body>
-
-    <div class="container">
-        <div class="icon-box">
-            <div class="pulse-ring"></div>
-            <div class="pulse-ring-delayed"></div>
-            <div class="icon-core">&lt;/&gt;</div>
-        </div>
-
-        <h1>Something Big is Building</h1>
-        <p class="tagline">I'm currently programming a brand new digital experience. My software development, network infrastructure, and real-time systems portfolio is coming soon.</p>
-        
-        <div class="clock" id="live-clock">00:00:00 PM</div>
-
-        <div class="skills-container">
-            <span class="badge">JAVA</span>
-            <span class="badge">C#</span>
-            <span class="badge">PYTHON</span>
-            <span class="badge">RESTful API</span>
-            <span class="badge">JAVASCRIPT</span>
-            <span class="badge">TAILWIND CSS</span>
-        </div>
-    </div>
-
-    <script>
-        // Live Real-time Clock Script
-        function updateClock() {
-            const now = new Date();
-            let hours = now.getHours();
-            const minutes = String(now.getMinutes()).padStart(2, '0');
-            const seconds = String(now.getSeconds()).padStart(2, '0');
-            const ampm = hours >= 12 ? 'PM' : 'AM';
-            
-            hours = hours % 12;
-            hours = hours ? hours : 12; // convert 0 to 12
-            const strHours = String(hours).padStart(2, '0');
-
-            document.getElementById('live-clock').textContent = `${strHours}:${minutes}:${seconds} ${ampm}`;
-        }
-        
-        setInterval(updateClock, 1000);
-        updateClock(); // Initial run
-    </script>
-</body>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
