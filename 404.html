@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
-  <head>
-
+<head>
   <meta charset="utf-8" />
   
+  <!-- Single Page Apps for GitHub Pages Redirect Script -->
   <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
     // This script intercepts the 404 redirect, captures the path/query string,
-    // and redirects it to the index.html so React Router can render the proper view.
+    // and redirects it to the index.html so React can render the proper view.
     var segmentCount = 0;
     var l = window.location;
     l.replace(
@@ -19,34 +18,68 @@
     );
   </script>
 
- 
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   
   <!-- Primary Meta Tags -->
   <title>Arta | Systems Architect & Full-Stack Developer</title>
-  <meta name="title" content="Arta | Systems Architect & Full-Stack Developer">
-  <meta name="description" content="Portfolio of Lorenzo Pallanan (Arta). Expert Systems Architect specializing in C# .NET, React, live LED stage production, and enterprise Fiber ISP networks.">
-  <meta name="keywords" content="Lorenzo Pallanan, Arta The Sleeping Giant, Systems Architect, React Developer, C# .NET, MikroTik, Unity 6 URP, Web Developer Philippines, Fiber ISP Setup">
-  <meta name="author" content="Lorenzo Pallanan">
+  <meta name="title" content="Arta | Systems Architect & Full-Stack Developer" />
+  <meta name="description" content="Portfolio of Lorenzo Pallanan (Arta). Expert Systems Architect specializing in C# .NET, React, live LED stage production, and enterprise Fiber ISP networks." />
+  <meta name="keywords" content="Lorenzo Pallanan, Arta The Sleeping Giant, Systems Architect, React Developer, C# .NET, MikroTik, Unity 6 URP, Web Developer Philippines, Fiber ISP Setup" />
+  <meta name="author" content="Lorenzo Pallanan" />
+
+  <!-- Icons, Manifest & Canonical -->
+  <link rel="canonical" href="https://arta-tsg.com/" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://arta-tsg.com/">
-  <meta property="og:title" content="Arta | Systems Architect & Full-Stack Developer">
-  <meta property="og:description" content="Bridging physical hardware and high-fidelity software. View my operational history, from 10km network bridges to live event AV production.">
-  <meta property="og:image" content="https://arta-tsg.com/assets/img/social-preview.jpg"> 
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arta The Sleeping Giant" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://arta-tsg.com/" />
+  <meta property="og:title" content="Arta | Systems Architect & Full-Stack Developer" />
+  <meta property="og:description" content="Need a tech right now? I deliver complete web development, custom apps, and complex system architecture. Handled end-to-end, from design to deployment." />
+  <meta property="og:image" content="https://arta-tsg.com/social-preview.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Preview image for Arta - Systems Architect & Full-Stack Developer" />
+  <meta property="og:publish_date" content="2026-08-01T00:00:00+08:00" />
+  <meta property="article:published_time" content="2026-08-01T00:00:00+08:00" />
 
   <!-- Twitter / X -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://arta-tsg.com/">
-  <meta property="twitter:title" content="Arta | Systems Architect & Full-Stack Developer">
-  <meta property="twitter:description" content="Bridging physical hardware and high-fidelity software. View my operational history, from 10km network bridges to live event AV production.">
-  <meta property="twitter:image" content="https://arta-tsg.com/assets/img/social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@yourusername" />
+  <meta name="twitter:url" content="https://arta-tsg.com/" />
+  <meta name="twitter:title" content="Arta | Systems Architect & Full-Stack Developer" />
+  <meta name="twitter:description" content="Need a tech right now? I deliver complete web development, custom apps, and complex system architecture. Handled end-to-end, from design to deployment." />
+  <meta name="twitter:image" content="https://arta-tsg.com/social-preview.jpg" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Arta | Systems Architect & Full-Stack Developer",
+    "url": "https://arta-tsg.com/",
+    "description": "Portfolio of Lorenzo Pallanan (Arta). Expert Systems Architect specializing in C# .NET, React, live LED stage production, and enterprise Fiber ISP networks.",
+    "author": {
+      "@type": "Person",
+      "name": "Lorenzo Pallanan"
+    }
+  }
+  </script>
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<body>
+  <div id="root">
+    <!-- H1 Fix: This serves the crawler immediately -->
+    <h1>Arta | Systems Architect & Full-Stack Developer</h1>
+  </div>
+  
+  <!-- Vite Asset Loader -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
