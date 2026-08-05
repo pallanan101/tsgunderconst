@@ -139,6 +139,35 @@
   ],
   "projects": [
     {
+      "title": "project yeskdofdk",
+      "overview": "oddodkxkxjdi",
+      "thumbnailUrl": "",
+      "isClickable": true,
+      "fullStory": [
+        {
+          "type": "image",
+          "content": "",
+          "url": "",
+          "placeholder": "[ MEDIA ]"
+        },
+        {
+          "type": "browser",
+          "content": "",
+          "src": "arta-tsg.com"
+        },
+        {
+          "type": "iframe",
+          "content": "",
+          "src": "test"
+        },
+        {
+          "type": "text",
+          "content": "test"
+        }
+      ],
+      "id": "proj-1785951777163"
+    },
+    {
       "id": "proj-1",
       "title": "ARKA-designs.com",
       "overview": "A minimalistic, aesthetic portfolio architecture for a leading designer.",
