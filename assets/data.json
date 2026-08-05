@@ -5,7 +5,7 @@
     "title": "Self-Taught. Field-Tested.",
     "shortInfo": "Driven by the pursuit of building my own development studio, I don't just write code—I build robust technology to solve real-world problems. Whether I am reviving cyber cafes with custom diskless servers, reverse-engineering game servers, or coding private billing portals for Fiber ISPs, I engineer solutions with limitless possibilities.",
     "avatarUrl": "/assets/img/hero.png",
-    "coverPhoto":"/assets/img/CoverPhoto.png",
+    "coverPhoto": "/assets/img/CoverPhoto.png",
     "avatarText": "[ ENZO ]",
     "resumeUrl": "/assets/files/LorenzoPallananResume.pdf",
     "stats": {
@@ -138,28 +138,36 @@
     }
   ],
   "projects": [
-   {
+    {
+      "title": "o jvih",
+      "overview": "ojohv",
+      "thumbnailUrl": "",
+      "isClickable": false,
+      "fullStory": [],
+      "id": "proj-1785946953159"
+    },
+    {
       "id": "proj-1",
       "title": "ARKA-designs.com",
       "overview": "A minimalistic, aesthetic portfolio architecture for a leading designer.",
       "thumbnailUrl": "/assets/img/DISENYO ARKA LOGO 2 .png",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "The client for this project is an architectural designer and a close childhood friend from my local church. He approached me with a straightforward request: build a digital space that reflects his design philosophy." 
+        {
+          "type": "text",
+          "content": "The client for this project is an architectural designer and a close childhood friend from my local church. He approached me with a straightforward request: build a digital space that reflects his design philosophy."
         },
-        { 
-          "type": "text", 
-          "content": "His core keywords were 'aesthetic' and 'simple'. The primary objective of the platform was to act as a digital portfolio to showcase his high-fidelity physical projects, while simultaneously driving client acquisition through a highly accessible contact pipeline." 
+        {
+          "type": "text",
+          "content": "His core keywords were 'aesthetic' and 'simple'. The primary objective of the platform was to act as a digital portfolio to showcase his high-fidelity physical projects, while simultaneously driving client acquisition through a highly accessible contact pipeline."
         },
-        { 
-          "type": "browser", 
-          "src": "https://arka-designs.com" 
+        {
+          "type": "browser",
+          "src": "https://arka-designs.com"
         },
-        { 
-          "type": "text", 
-          "content": "To ensure maximum uptime with zero server maintenance costs, the entire application was compiled as a static build, hosted directly through GitHub Pages, and seamlessly linked via custom DNS forwarding to his primary domain." 
+        {
+          "type": "text",
+          "content": "To ensure maximum uptime with zero server maintenance costs, the entire application was compiled as a static build, hosted directly through GitHub Pages, and seamlessly linked via custom DNS forwarding to his primary domain."
         },
         {
           "type": "text",
@@ -167,62 +175,62 @@
         }
       ]
     },
-   {
+    {
       "id": "proj-2",
       "title": "MigsStyling.com",
       "overview": "A pixel-perfect brand platform for an elite luxury event styling and coordination team.",
       "thumbnailUrl": "/assets/img/migslogo.png",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "I crossed paths with the incredible Host Jay Ramos while operating LED walls and visual production for Soundmax Lights and Sounds at a live event. Recognizing the elite caliber of their work, I took the initiative to reach out directly. The timing was absolute perfection—they were just about to sign another developer to build their digital platform." 
+        {
+          "type": "text",
+          "content": "I crossed paths with the incredible Host Jay Ramos while operating LED walls and visual production for Soundmax Lights and Sounds at a live event. Recognizing the elite caliber of their work, I took the initiative to reach out directly. The timing was absolute perfection—they were just about to sign another developer to build their digital platform."
         },
-        { 
-          "type": "text", 
-          "content": "Migs Styling, owned by Sir Migs and Host Jay, is a top-tier production styling team renowned for their luxurious designs. They possess the unparalleled ability to transform even the most basic space—literally turning a garage into a breathtaking, high-end venue." 
+        {
+          "type": "text",
+          "content": "Migs Styling, owned by Sir Migs and Host Jay, is a top-tier production styling team renowned for their luxurious designs. They possess the unparalleled ability to transform even the most basic space—literally turning a garage into a breathtaking, high-end venue."
         },
-        { 
-          "type": "browser", 
-          "src": "https://migsstyling.com" 
+        {
+          "type": "browser",
+          "src": "https://migsstyling.com"
         },
-        { 
-          "type": "text", 
-          "content": "Host Jay spearheaded the digital project with a strict, highly detailed vision. As luxury designers, their attention to detail was absolute. Every element—from typography and color palettes to the overarching theme—had to meet their exact standards. I engineered a clean, elegant web architecture that perfectly mirrored their physical styling capabilities, and they loved the final result." 
+        {
+          "type": "text",
+          "content": "Host Jay spearheaded the digital project with a strict, highly detailed vision. As luxury designers, their attention to detail was absolute. Every element—from typography and color palettes to the overarching theme—had to meet their exact standards. I engineered a clean, elegant web architecture that perfectly mirrored their physical styling capabilities, and they loved the final result."
         },
-        { 
-          "type": "text", 
-          "content": "The success of this build has evolved into an ongoing partnership. We are currently architecting a comprehensive, automated wedding ecosystem designed to provide couples with their own personalized websites, digital invitations, and seamless online guest reservations." 
+        {
+          "type": "text",
+          "content": "The success of this build has evolved into an ongoing partnership. We are currently architecting a comprehensive, automated wedding ecosystem designed to provide couples with their own personalized websites, digital invitations, and seamless online guest reservations."
         }
       ]
     },
-   {
+    {
       "id": "proj-3",
       "title": "RPS Network Billing & Mapping System",
       "overview": "Private enterprise management tool for a Fiber FTTH ISP.",
       "thumbnailUrl": "/assets/img/RPS.png",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "I architected this fully private, full-stack internal management system specifically to help my cousin track, monitor, and efficiently scale his growing Fiber ISP client base." 
+        {
+          "type": "text",
+          "content": "I architected this fully private, full-stack internal management system specifically to help my cousin track, monitor, and efficiently scale his growing Fiber ISP client base."
         },
-        { 
-          "type": "image", 
-          "url": "/assets/img/fullstack.gif", 
-          "placeholder": "[ SYSTEM ARCHITECTURE GIF ]" 
+        {
+          "type": "image",
+          "url": "/assets/img/fullstack.gif",
+          "placeholder": "[ SYSTEM ARCHITECTURE GIF ]"
         },
-        { 
-          "type": "text", 
-          "content": "The application features a comprehensive backend routing architecture that drives a custom SQL billing engine. It handles complex data relationships across client profiles and service plans, and safely loops through active subscriptions to auto-generate missing monthly invoices." 
+        {
+          "type": "text",
+          "content": "The application features a comprehensive backend routing architecture that drives a custom SQL billing engine. It handles complex data relationships across client profiles and service plans, and safely loops through active subscriptions to auto-generate missing monthly invoices."
         },
-        { 
-          "type": "text", 
-          "content": "Alongside the advanced billing logic, the platform utilizes interactive GIS network mapping. This allows the team to visually track physical fiber lines and client PPPoE nodes directly from the OLT to the NAP." 
+        {
+          "type": "text",
+          "content": "Alongside the advanced billing logic, the platform utilizes interactive GIS network mapping. This allows the team to visually track physical fiber lines and client PPPoE nodes directly from the OLT to the NAP."
         },
-        { 
-          "type": "text", 
-          "content": "Due to strict NDA and internal security protocols regarding sensitive customer topography and network data, complete source code and live previews are strictly restricted." 
+        {
+          "type": "text",
+          "content": "Due to strict NDA and internal security protocols regarding sensitive customer topography and network data, complete source code and live previews are strictly restricted."
         }
       ]
     },
@@ -233,51 +241,51 @@
       "thumbnailUrl": "/assets/img/Soundmax.jpg",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "While operating under Soundmax Lights and Sounds alongside Sir Ryan, a client requested a visual layout for an upcoming live event in Tarlac to better understand the setup. I jumped into Unity 6 URP and engineered this 3D environment to give them a high-fidelity preview of the stage and lighting." 
+        {
+          "type": "text",
+          "content": "While operating under Soundmax Lights and Sounds alongside Sir Ryan, a client requested a visual layout for an upcoming live event in Tarlac to better understand the setup. I jumped into Unity 6 URP and engineered this 3D environment to give them a high-fidelity preview of the stage and lighting."
         },
-        { 
-          "type": "image", 
-          "url": "/assets/img/ledwall.gif", 
-          "placeholder": "[ UNITY 3D STAGE RENDER ]" 
+        {
+          "type": "image",
+          "url": "/assets/img/ledwall.gif",
+          "placeholder": "[ UNITY 3D STAGE RENDER ]"
         },
-        { 
-          "type": "text", 
-          "content": "To build the simulation, I developed custom movement scripts for object tracking. To ensure accurate physical-to-virtual stage calibration, boundaries are mathematically calculated relative to the object's initial position rather than fixed world coordinates." 
+        {
+          "type": "text",
+          "content": "To build the simulation, I developed custom movement scripts for object tracking. To ensure accurate physical-to-virtual stage calibration, boundaries are mathematically calculated relative to the object's initial position rather than fixed world coordinates."
         },
-        { 
-          "type": "text", 
-          "content": "My ultimate vision for this project is to evolve it into a proprietary, standalone application for rapid 3D venue layout. By fully integrating the Unity output with Resolume Arena media server software, it will act as a complete 'virtual training center' and pre-visualization engine for live LED wall mapping." 
+        {
+          "type": "text",
+          "content": "My ultimate vision for this project is to evolve it into a proprietary, standalone application for rapid 3D venue layout. By fully integrating the Unity output with Resolume Arena media server software, it will act as a complete 'virtual training center' and pre-visualization engine for live LED wall mapping."
         }
       ]
     },
-   {
+    {
       "id": "proj-5",
       "title": "Daddyran Online",
       "overview": "Customized private game server, reverse-engineered from source code.",
       "thumbnailUrl": "/assets/img/DaddyRan.png",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "My first foray into game deployment. I scraped Ragezone for source code and successfully reverse-engineered the backend to launch my own private server. Alongside the server, I built the accompanying web portal, customized the server database with enhanced security, and deployed the full game client." 
+        {
+          "type": "text",
+          "content": "My first foray into game deployment. I scraped Ragezone for source code and successfully reverse-engineered the backend to launch my own private server. Alongside the server, I built the accompanying web portal, customized the server database with enhanced security, and deployed the full game client."
         },
-        { 
-          "type": "iframe", 
-          "src": "https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Fyoshii608%2Fvideos%2F603593614740678%2F%3Fidorvanity%3D133208639705861&show_text=false&width=560&t=0&data-autoplay=true&data-lazy=true" 
+        {
+          "type": "iframe",
+          "src": "https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Fyoshii608%2Fvideos%2F603593614740678%2F%3Fidorvanity%3D133208639705861&show_text=false&width=560&t=0&data-autoplay=true&data-lazy=true"
         },
-        { 
-          "type": "text", 
-          "content": "Despite the technical achievement of getting the game running smoothly, the project met its demise on the business side. I experienced significant difficulties with marketing the server, which eventually led to it going offline due to a lack of an active player base." 
+        {
+          "type": "text",
+          "content": "Despite the technical achievement of getting the game running smoothly, the project met its demise on the business side. I experienced significant difficulties with marketing the server, which eventually led to it going offline due to a lack of an active player base."
         },
-        { 
-          "type": "iframe", 
-          "src": "https://www.facebook.com/plugins/video.php?height=437&href=https%3A%2F%2Fwww.facebook.com%2Fpassword1141%2Fvideos%2F548017344126280%2F%3Fidorvanity%3D133208639705861&show_text=false&width=560&t=0&data-autoplay=true&data-lazy=true" 
+        {
+          "type": "iframe",
+          "src": "https://www.facebook.com/plugins/video.php?height=437&href=https%3A%2F%2Fwww.facebook.com%2Fpassword1141%2Fvideos%2F548017344126280%2F%3Fidorvanity%3D133208639705861&show_text=false&width=560&t=0&data-autoplay=true&data-lazy=true"
         },
-        { 
-          "type": "text", 
-          "content": "However, this experience laid the groundwork for my future ambitions. Instead of relying on scraped code, my ultimate goal is to architect, develop, and launch an entirely original MMORPG from the ground up." 
+        {
+          "type": "text",
+          "content": "However, this experience laid the groundwork for my future ambitions. Instead of relying on scraped code, my ultimate goal is to architect, develop, and launch an entirely original MMORPG from the ground up."
         }
       ]
     },
@@ -288,21 +296,21 @@
       "thumbnailUrl": "/assets/img/Mondragon2.png",
       "isClickable": true,
       "fullStory": [
-        { 
-          "type": "text", 
-          "content": "The Mondragon and original TSG portals were my comprehensive web platforms, fully designed and hosted on a dedicated personal IIS server. They were heavily backend-focused, integrating secure social OAuth logins (Google and Facebook), RESTful APIs for feedback databases, and strict input validation." 
+        {
+          "type": "text",
+          "content": "The Mondragon and original TSG portals were my comprehensive web platforms, fully designed and hosted on a dedicated personal IIS server. They were heavily backend-focused, integrating secure social OAuth logins (Google and Facebook), RESTful APIs for feedback databases, and strict input validation."
         },
-        { 
-          "type": "text", 
-          "content": "While Mondragon served as an incredible testing ground for managing server infrastructure and user authentication, the legacy platform is currently offline due to ongoing server transitions." 
+        {
+          "type": "text",
+          "content": "While Mondragon served as an incredible testing ground for managing server infrastructure and user authentication, the legacy platform is currently offline due to ongoing server transitions."
         },
-        { 
-          "type": "text", 
-          "content": "However, the DNA of those original portals lives on. Taking the lessons learned from managing heavier, server-dependent builds, I completely re-architected my digital presence. This evolution led directly to the development of the new TSG platform you are browsing right now—a blazing-fast, frontend-driven React architecture built for maximum aesthetic impact and flawless uptime." 
+        {
+          "type": "text",
+          "content": "However, the DNA of those original portals lives on. Taking the lessons learned from managing heavier, server-dependent builds, I completely re-architected my digital presence. This evolution led directly to the development of the new TSG platform you are browsing right now—a blazing-fast, frontend-driven React architecture built for maximum aesthetic impact and flawless uptime."
         }
       ]
     },
-       {
+    {
       "id": "proj-7",
       "title": "Automated Web Scraper",
       "overview": "High-velocity data scraping tool built in Python.",
@@ -316,14 +324,10 @@
       "isClickable": false
     }
   ],
- 
- "legal": {
+  "legal": {
     "privacy": "Your privacy is important to us. It is Arta - The Sleeping Giant (Arta - TSG)'s policy to respect your privacy regarding any information we may collect from you across our website, arta-tsg.com, and other sites we own and operate.\n\nInformation We Collect:\n- Personal identification information (Name, email address, phone number, etc.)\n- Usage data (Pages visited, time spent on site, etc.)\n\nHow We Use Information:\n- To provide and maintain our services\n- To notify you about changes to our services\n- To provide customer support\n- To gather analysis or valuable information so that we can improve our services\n\nData Sharing:\n- Third-party service providers\n- Affiliates\n- Compliance with legal obligations\n\nData Security:\nWe strive to use commercially acceptable means to protect your personal data. However, no method of transmission over the internet, or method of electronic storage, is 100% secure.\n\nUser Rights:\n- Access your data\n- Correct or delete your data\n- Withdraw consent\n\nCookies and Tracking:\nWe use cookies and similar tracking technologies to track the activity on our service and hold certain information.\n\nThird-Party Links:\nOur service may contain links to other sites that are not operated by us. We strongly advise you to review the privacy policy of every site you visit.\n\nChanges to the Policy:\nWe may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.\n\nContact Us:\nLorenzo Pallanan\nPhone: +63 927 446 5233\nWebsite: arta-tsg.com",
-
     "terms": "These terms and conditions outline the rules and regulations for the use of Arta - The Sleeping Giant (Arta - TSG)'s Website, located at arta-tsg.com.\n\nAcceptance of Terms:\nBy accessing this website, we assume you accept these terms and conditions. Do not continue to use arta-tsg.com if you do not agree to take all of the terms and conditions stated on this page.\n\nChanges to Terms:\nWe reserve the right to make changes to these terms at any time. We will notify you of any changes by posting the new terms on this page.\n\nUser Responsibilities:\n- Provide accurate information\n- Comply with all applicable laws and regulations\n\nProhibited Activities:\nYou must not republish, sell, rent, sub-license, reproduce, duplicate, copy, or redistribute material from arta-tsg.com.\n\nIntellectual Property:\nUnless otherwise stated, Arta - The Sleeping Giant (Arta - TSG) and/or its licensors own the intellectual property rights for all material on arta-tsg.com.\n\nTermination of Use:\nWe may terminate or suspend your access to our service immediately, without prior notice or liability, for any reason whatsoever.\n\nDisclaimers and Limitation of Liability:\nArta - The Sleeping Giant (Arta - TSG) shall not be held liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this website.\n\nGoverning Law:\nThese terms shall be governed and construed in accordance with the laws of Philippines.\n\nContact Us:\nLorenzo Pallanan\nPhone: +63 927 446 5233\nWebsite: arta-tsg.com",
-
     "copyright": "This Copyright Policy applies to the Arta - The Sleeping Giant (Arta - TSG) website, located at arta-tsg.com.\n\nIntellectual Property Rights:\nAll content and materials on this website, including but not limited to text, graphics, images, logos, and software, are the intellectual property of Arta - The Sleeping Giant (Arta - TSG) or its licensors and are protected by copyright and trademark laws.\n\nUse of Content:\nYou may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our website, except for temporary RAM caching, browser caching, or printing one copy for personal, non-commercial use.\n\nReporting Copyright Infringements:\nIf you believe content on our website infringes your copyright, please notify us at:\nLorenzo Pallanan\nPhone: +63 927 446 5233\nEmail: pallananlorenzo@gmail.com",
-
     "cookies": "This Cookies Policy explains how Arta - The Sleeping Giant (Arta - TSG) uses cookies and similar technologies on our website, located at arta-tsg.com.\n\nWhat Are Cookies:\nCookies are small text files placed on your computer to help websites work efficiently and provide information to site owners.\n\nHow We Use Cookies:\n- Understand and save user preferences for future visits\n- Compile aggregate data about site traffic and interactions\n- Keep track of advertisements\n\nTypes of Cookies We Use:\n- Strictly Necessary Cookies\n- Performance Cookies\n- Functional Cookies\n- Targeting Cookies\n\nYour Choices:\nYou can modify your browser settings to warn you or turn off cookies.\n\nContact Us:\nLorenzo Pallanan\nPhone: +63 927 446 5233\nWebsite: arta-tsg.com"
   }
 }
