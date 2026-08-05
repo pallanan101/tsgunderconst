@@ -1,5 +1,14 @@
 {
   "blog": [
+     {
+      "id": "post-2",
+      "date": "2026-07-28",
+      "type": "image",
+      "title": "Python Automation Deployed",
+      "content": "Just finished compiling the new Python web scraper. The data extraction is running flawlessly.",
+      "imageUrl": "",
+      "imagePlaceholder": "[ PYTHON TERMINAL LOGS ]"
+    },
        {
       "type": "story",
       "id": "post-1",
@@ -8,14 +17,6 @@
       "title": "The Foreman Philosophy",
       "content": "Give a man with no knowledge of building a house the best tools, and give a foreman the same tools. Who builds the house? Now, give the foreman a manual saw and the novice an electrical saw. The foreman still wins. My knowledge of structure is what makes me a great developer; AI is simply my power tool."
     },
-    {
-      "id": "post-2",
-      "date": "2026-07-28",
-      "type": "image",
-      "title": "Python Automation Deployed",
-      "content": "Just finished compiling the new Python web scraper. The data extraction is running flawlessly.",
-      "imageUrl": "",
-      "imagePlaceholder": "[ PYTHON TERMINAL LOGS ]"
-    }
+   
   ]
 }
