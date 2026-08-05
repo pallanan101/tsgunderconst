@@ -1,14 +1,6 @@
 {
   "blog": [
     {
-      "title": "test 2",
-      "date": "2026-08-05",
-      "type": "image",
-      "content": "usisjeieiekdjdjd",
-      "imageUrl": "https://media.giphy.com/media/KeaFMJwVe3FHs1beng/giphy.gif",
-      "id": "post-1785951572988"
-    },
-    {
       "id": "post-1",
       "date": "2026-07-31",
       "type": "story",
