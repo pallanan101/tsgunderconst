@@ -209,7 +209,7 @@
         },
         {
           "type": "image",
-          "url": "/assets/img/fullstack.gif",
+          "url": "https://media.giphy.com/media/Jj0jiEb6sIb4jlc2SP/giphy.gif",
           "placeholder": "[ SYSTEM ARCHITECTURE GIF ]"
         },
         {
@@ -239,7 +239,7 @@
         },
         {
           "type": "image",
-          "url": "/assets/img/ledwall.gif",
+          "url": "https://media.giphy.com/media/VPZ4CoaAq0yn9Rh8PX/giphy.gif",
           "placeholder": "[ UNITY 3D STAGE RENDER ]"
         },
         {
