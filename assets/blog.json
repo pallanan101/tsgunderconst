@@ -15,14 +15,6 @@
       "content": "Just finished compiling the new Python web scraper. The data extraction is running flawlessly.",
       "imageUrl": "",
       "imagePlaceholder": "[ PYTHON TERMINAL LOGS ]"
-    },
-     {
-      "title": "Static site, dynamic editing. ⚡️",
-      "date": "2026-08-05",
-      "type": "story",
-      "content": "Just finished building and test-running a custom app to edit my static GitHub Pages site!\nIt pulls the JSON from GitHub, lets me update the text, and pushes it back. To keep the repo super lightweight, I integrated a slick media workaround: the app uploads any images or videos directly to Giphy, then just saves the URL to display them on the site.\nGetting the benefits of a static site with the ease of a CMS. Back to testing! 👨‍💻",
-      "imageUrl": "https://i.ibb.co/HDqpLRHT/9bfad416-4fe4-4680-bddd-5f3de7f2a964.jpg",
-      "id": "post-3"
-    },
+    }
   ]
 }
