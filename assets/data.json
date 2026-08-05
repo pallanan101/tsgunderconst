@@ -139,6 +139,21 @@
   ],
   "projects": [
     {
+      "title": "",
+      "overview": "",
+      "thumbnailUrl": "",
+      "isClickable": false,
+      "fullStory": [
+        {
+          "type": "image",
+          "content": "",
+          "url": "https://media.giphy.com/media/asnTl5ouhk4k87wDJl/giphy.gif",
+          "placeholder": "[ MEDIA ]"
+        }
+      ],
+      "id": "proj-1785952178222"
+    },
+    {
       "id": "proj-1",
       "title": "ARKA-designs.com",
       "overview": "A minimalistic, aesthetic portfolio architecture for a leading designer.",
