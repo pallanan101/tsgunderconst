@@ -1,6 +1,14 @@
 {
   "blog": [
     {
+      "title": "test 2",
+      "date": "2026-08-05",
+      "type": "story",
+      "content": "hshsjejs",
+      "imageUrl": "https://i.ibb.co/zT01vshG/053faa25-74ae-4c72-9b4b-26b8db443193.jpg",
+      "id": "post-1785946684681"
+    },
+    {
       "title": "Static site, dynamic editing. ⚡️",
       "date": "2026-08-05",
       "type": "image",
