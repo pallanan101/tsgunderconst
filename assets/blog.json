@@ -1,6 +1,14 @@
 {
   "blog": [
     {
+      "title": "test",
+      "date": "2026-08-08",
+      "type": "image",
+      "content": "",
+      "imageUrl": "https://i.ibb.co/LD1cThDn/1aedfa41-7bae-4b33-822f-b9653279b279.jpg",
+      "id": "post-1786183250603"
+    },
+    {
       "id": "post-1",
       "date": "2026-07-31",
       "type": "story",
