@@ -2,11 +2,12 @@
   "blog": [
     {
       "title": "My Own Lightweight CMS Magic! 🚀✨",
-      "date": "2026-08-08",
+      "date": "2026-08-05",
       "type": "image",
       "content": "I love my portfolio website, but updating it was becoming a bit of a chore. Since it's a completely static website and hosted in github pages, all my blog posts and project details are stored in static JSON files inside the repo. To make my life easier, I decided to build a custom editor app to handle all my updates on the fly! ✍️💻\n\nThis app is a total game-changer! It lets me easily post blogs and add new projects without touching code. Plus, I integrated ImgBB and Giphy to handle all my media assets. The app uploads my images and videos, grabs the URLs, and even automatically converts videos into lightweight GIFs! 🎬🍿 All of these links are then instantly injected right into my static JSON data.\n\nThe result? A super fast, lightweight website that I can update in seconds! 🍃 No heavy databases or clunky backend setups—just pure static speed combined with the absolute joy of a seamless, custom-built CMS. I couldn't be happier! 🎉🙌",
       "imageUrl": "https://media.giphy.com/media/PGU5hHIdpqBojq8mDZ/giphy.gif",
-      "id": "post-1786201520926"
+      "id": "post-1786201520926",
+      "imagePlaceholder": "[CMS MAGIC]"
     },
     {
       "id": "post-1",
