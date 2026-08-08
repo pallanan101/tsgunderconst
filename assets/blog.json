@@ -1,6 +1,24 @@
 {
   "blog": [
-       {
+    {
+      "title": "Magic in Nueva Vizcaya",
+      "date": "2026-08-08",
+      "type": "image",
+      "content": "Road trip to Nueva Vizcaya! 🚗💨 We headed out to set up stage lights, LED walls, and a killer sound system for a local pageant. Budget was super tight and the plan was pretty basic, but we weren't going to let that stop us from giving them an unforgettable show! 🌟✨\n\nThrough the power of collaboration, Soundmax Lights and Sound teamed up with our awesome partners, JNC Lights and Sounds. Together, we pushed past the limitations and turned the whole event into an absolute masterpiece! The pageant looked and sounded incredibly professional, and everyone was blown away. 🎶👑\n\nTo show some massive love to the JNC team for being such amazing partners, I even made a custom monogram animation just for them! 💻🔥 Huge thanks to JNC and Soundmax—proving that teamwork really does make the dream work, no matter the budget! 🙌💯",
+      "imageUrl": "https://media.giphy.com/media/iJ8VQ7lIgZ9bOdPT9g/giphy.gif",
+      "imagePlaceholder": "",
+      "id": "post-1786202153395"
+    },
+    {
+      "title": "My Own Lightweight CMS Magic! 🚀✨",
+      "date": "2026-08-05",
+      "type": "image",
+      "content": "I love my portfolio website, but updating it was becoming a bit of a chore. Since it's a completely static website and hosted in github pages, all my blog posts and project details are stored in static JSON files inside the repo. To make my life easier, I decided to build a custom editor app to handle all my updates on the fly! ✍️💻\n\nThis app is a total game-changer! It lets me easily post blogs and add new projects without touching code. Plus, I integrated ImgBB and Giphy to handle all my media assets. The app uploads my images and videos, grabs the URLs, and even automatically converts videos into lightweight GIFs! 🎬🍿 All of these links are then instantly injected right into my static JSON data.\n\nThe result? A super fast, lightweight website that I can update in seconds! 🍃 No heavy databases or clunky backend setups—just pure static speed combined with the absolute joy of a seamless, custom-built CMS. I couldn't be happier! 🎉🙌",
+      "imageUrl": "https://media.giphy.com/media/PGU5hHIdpqBojq8mDZ/giphy.gif",
+      "id": "post-1786201520926",
+      "imagePlaceholder": "[CMS MAGIC]"
+    },
+    {
       "id": "post-1",
       "date": "2026-07-31",
       "type": "story",
@@ -15,14 +33,6 @@
       "content": "Just finished compiling the new Python web scraper. The data extraction is running flawlessly.",
       "imageUrl": "",
       "imagePlaceholder": "[ PYTHON TERMINAL LOGS ]"
-    },
-     {
-      "title": "Static site, dynamic editing. ⚡️",
-      "date": "2026-08-05",
-      "type": "story",
-      "content": "Just finished building and test-running a custom app to edit my static GitHub Pages site!\nIt pulls the JSON from GitHub, lets me update the text, and pushes it back. To keep the repo super lightweight, I integrated a slick media workaround: the app uploads any images or videos directly to Giphy, then just saves the URL to display them on the site.\nGetting the benefits of a static site with the ease of a CMS. Back to testing! 👨‍💻",
-      "imageUrl": "https://i.ibb.co/HDqpLRHT/9bfad416-4fe4-4680-bddd-5f3de7f2a964.jpg",
-      "id": "post-3"
-    },
+    }
   ]
 }
