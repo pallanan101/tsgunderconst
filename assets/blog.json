@@ -1,6 +1,14 @@
 {
   "blog": [
     {
+      "title": "Magic at The Blue Leaf",
+      "date": "2026-10-10",
+      "type": "image",
+      "content": "We have been at The Blue Leaf since midnight, pushing through a long, exhausting night of prep and setup. But seeing the final result makes every tired moment completely worth it. Look how it turned out—a truly spectacular wedding reception for our beautiful couple of the day!",
+      "imageUrl": "https://media.giphy.com/media/iAHbckL4tilHwKsm03/giphy.gif",
+      "id": "post-1791622456423"
+    },
+    {
       "title": "Magic in Nueva Vizcaya",
       "date": "2026-08-08",
       "type": "image",
